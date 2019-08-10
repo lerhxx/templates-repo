@@ -22,7 +22,7 @@ yarn install
 
 ### [Taro 更新](https://nervjs.github.io/taro/docs/GETTING-STARTED.html)
 
-### 自定义组件
+### 工具
 
 - [wxParse](https://github.com/icindy/wxParse): 微信小程序富文本解析自定义组件
 
