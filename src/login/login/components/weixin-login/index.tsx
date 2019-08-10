@@ -19,6 +19,7 @@ export default class WeiXinLogin extends Component<any, any> {
     // 登录请求
     async requestLogin(showLoading=true) {
         try {
+            console.log('requestLogin')
             return {}
         } catch(err) {
             if (this.isHide) { return }
