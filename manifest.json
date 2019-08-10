@@ -6,8 +6,8 @@
     "permissions": [],
     "browser_action": {
         "default_title": "",
-        "default_icon": "default.png",
-        "default_popup": "popup.html"
+        "default_icon": "./images/default.png",
+        "default_popup": ""
     },
     "content_scripts": [],
     "background": {}
