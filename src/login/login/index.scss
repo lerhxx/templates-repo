@@ -1,0 +1,11 @@
+.login {
+    position: relative;
+    height: 100vh;
+    background: #fff;
+    &__wx-btn {
+        display: block;
+        width: 80%;
+        margin: 30px auto;
+        border-radius: 50px;
+    }
+}

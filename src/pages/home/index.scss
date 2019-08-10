@@ -1,0 +1,10 @@
+@import "~taro-ui/dist/style/components/flex.scss";
+@import '../../styles/variables.scss';
+
+.home {
+    &__wrap {
+        height: 100vh;
+        box-sizing: border-box;
+        background: #fff;
+    }
+}

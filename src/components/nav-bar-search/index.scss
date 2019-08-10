@@ -1,0 +1,20 @@
+@import '../../styles/variables.scss';
+
+.nav-bar-search {
+    &__wrap {
+        background: $background-color;
+    }
+
+    &__input-wrap {
+        position: absolute;
+        left: 100px;
+        bottom: 16px;
+        width: 400px;
+        border: none;
+        text-align: left;
+
+        .icon-close {
+            font-size: 20px;
+        }
+    }
+}

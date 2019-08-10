@@ -1,0 +1,86 @@
+@import './variables.scss';
+
+page {
+    height: 100vh;
+    color: #333;
+    background: $background-color;
+}
+
+.btn-color {
+    border-color: $theme-color;
+    color: #fff;
+    background: $theme-color;
+    &.disabled {
+        opacity: .4;
+    }
+    &.disabled-2 {
+        border-color: #CCCCCC;
+        color: #fff;
+        background: #CCCCCC;
+        opacity: 1;
+    }
+    &.disabled-3 {
+        border-color: #EAEAEA;
+        color: #999999;
+        background: #fff;
+    }
+}
+
+.text-overflow {
+    display: -webkit-box;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+	white-space: normal !important;
+	-webkit-line-clamp: 2;	/*  行数*/
+	-webkit-box-orient: vertical;
+}
+
+.text-overflow-s {
+	overflow: hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.image-center {
+    position: relative;
+    image {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        max-width: 100%;
+        max-height: 100%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.background-filter {
+    position: relative;
+    filter: blur(15px);
+    background-position: center;
+    &:after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        content: '';
+        background: rgba(0, 0, 0, .2);
+    }
+
+}
+
+.page {
+    &__wrap {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    &__body {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+}

@@ -1,0 +1,44 @@
+@import '../../styles/variables.scss';
+
+
+.nav-bar {
+    &__wrap {
+        position: relative;
+        height: $navbar-content-height;
+        padding: 0px 20px;
+        padding-bottom: 10px;
+        line-height: 22Px;
+        text-align: center;
+        background: #fff;
+        z-index: 99;
+    }
+
+    &__mul-btn-wrap {
+        border: 1px solid #eee;
+        border-radius: 50px;
+        .nav-bar__btn {
+            border-right: 1px solid #eee;
+
+            &:last-child {
+                border-right: none;
+            }
+        }
+    }
+
+    &__btn-wrap  {
+        position: absolute;
+        left: 20px;
+        bottom: 17px;
+    }
+
+    &__btn {
+        padding: 0px 20px;
+        margin: 14px 0;
+        color: #666;
+        font-size: 36px;
+    }
+    
+    &__title {
+        font-size: 30px;
+    }
+}
