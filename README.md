@@ -2,7 +2,7 @@
 
 基于 Taro、Taro-ui 开发
 
-### Install
+### 安装
 
 - [Taro 安装](https://nervjs.github.io/taro/docs/GETTING-STARTED.html)
 
@@ -12,7 +12,7 @@
 yarn install
 ```
 
-### Run
+### 运行
 
 参看 package.json
 
