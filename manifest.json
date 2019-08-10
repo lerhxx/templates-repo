@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
     "name": "{{projectName}}",
-    "description": "{{projectDescription}}",
     "version": "{{projectVersion}}",
+    "description": "{{projectDescription}}",
     "permissions": [],
     "browser_action": {
         "default_title": "",
