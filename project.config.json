@@ -2,7 +2,7 @@
 	"miniprogramRoot": "dist/",
 	"projectname": "{{projectName}}",
 	"description": "{{projectDescription}}",
-	"appid": "",
+	"appid": "{{projectAppId}}",
 	"setting": {
 		"urlCheck": false,
 		"es6": false,
