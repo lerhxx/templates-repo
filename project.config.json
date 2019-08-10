@@ -1,8 +1,8 @@
 {
 	"miniprogramRoot": "dist/",
-	"projectname": "fe-taro-activity",
-	"description": "taro-activity",
-	"appid": "wx7f1d65332b8335a7",
+	"projectname": "{{projectName}}",
+	"description": "{{projectDescription}}",
+	"appid": "",
 	"setting": {
 		"urlCheck": false,
 		"es6": false,
