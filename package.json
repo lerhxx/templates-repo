@@ -1,2 +1,6 @@
 {
+    "name": "{{projectName}}",
+    "version": "{{projectVersion}}",
+    "author": "lerhxx",
+    "description": "{{projectDescription}}"
 }
